@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvId1"
+        android:text="ID" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUserName" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmail" />
+
+    <TextView
+        android:text="Street"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddressStreet" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="Suite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddressSuite" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddressCity" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="zipcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddressZipcode" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="Latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGeoLat" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="Longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGeoLongitude" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPhone" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="Website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWebsite" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="CompanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCompanyName" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="CatchPhrase Of Company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCompanyCatchPhrase" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="Company BS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCompanyBs" />
+</LinearLayout>

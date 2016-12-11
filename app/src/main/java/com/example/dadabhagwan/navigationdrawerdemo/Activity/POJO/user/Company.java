@@ -1,0 +1,81 @@
+package com.example.dadabhagwan.navigationdrawerdemo.Activity.POJO.user;
+
+/**
+ * Created by dadabhagwan on 11/25/2016.
+ */
+
+import java.util.HashMap;
+import java.util.Map;
+//import javax.annotation.Generated;
+
+//@Generated("org.jsonschema2pojo")
+public class Company {
+
+    private String name;
+    private String catchPhrase;
+    private String bs;
+    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+
+    /**
+     *
+     * @return
+     * The name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     *
+     * @param name
+     * The name
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     *
+     * @return
+     * The catchPhrase
+     */
+    public String getCatchPhrase() {
+        return catchPhrase;
+    }
+
+    /**
+     *
+     * @param catchPhrase
+     * The catchPhrase
+     */
+    public void setCatchPhrase(String catchPhrase) {
+        this.catchPhrase = catchPhrase;
+    }
+
+    /**
+     *
+     * @return
+     * The bs
+     */
+    public String getBs() {
+        return bs;
+    }
+
+    /**
+     *
+     * @param bs
+     * The bs
+     */
+    public void setBs(String bs) {
+        this.bs = bs;
+    }
+
+    public Map<String, Object> getAdditionalProperties() {
+        return this.additionalProperties;
+    }
+
+    public void setAdditionalProperty(String name, Object value) {
+        this.additionalProperties.put(name, value);
+    }
+
+}
